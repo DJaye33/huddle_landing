@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*, *::before, ::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  color: #00252E; }
+
+.btn {
+  border: none;
+  border-radius: 10rem;
+  outline: transparent;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  white-space: nowrap; }
+
+.btn:hover {
+  cursor: pointer; }
+
+.btn:active {
+  -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem); }
+
+.header {
+  background-color: #e3f9ff;
+  background-image: url("/images/bg-hero-mobile.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.header__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2.7rem; }
+  .header__navbar-logo {
+    width: 10.4rem; }
+  .header__navbar-btn {
+    font-size: 1rem;
+    padding: 0.5rem 2.2rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.0954201);
+            box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.0954201); }
+  .header__navbar-btn:hover {
+    color: #808E9A; }
+
+.header__hero {
+  width: 80%;
+  height: 55.3rem;
+  margin: 8rem auto 0;
+  border: 2px dotted pink; }
+  .header__hero-text {
+    text-align: center; }
+    .header__hero-text-heading {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 2.4rem;
+      margin-bottom: 2.4rem;
+      text-transform: capitalize; }
+    .header__hero-text-paragraph {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      margin-bottom: 3.2rem; }
+    .header__hero-text-btn {
+      background-color: #FF52C1;
+      padding: 1.2rem 5.8rem;
+      color: #fff;
+      margin-bottom: 5.6rem;
+      -webkit-box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
+              box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185); }
+    .header__hero-text-btn:hover {
+      background-color: #FF9ADB; }
+  .header__hero-img {
+    width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */
