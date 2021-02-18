@@ -12,6 +12,7 @@ html
     font-size: 62.5%
 
 body
+    position: relative
     color: #00252E
 
 h2
@@ -56,6 +57,19 @@ h2
     margin-top: 5.6rem
     width: 100%
 
+a
+    color: #fff 
+    text-decoration: none
+    font-family: "Open Sans", sans-serif
+    font-size: 1.4rem
+    display: inline-block
+
+span
+    margin-top: .5rem
+    margin-right: 1.5rem
+
+.fa-lg
+    vertical-align: -.2rem
 /////////////////////////////////
 // Header
 .header
@@ -77,6 +91,9 @@ h2
 
     &-logo
         width: 10.4rem
+
+    &-logo:hover
+        cursor: pointer
 
     &-btn
         font-size: 1rem
@@ -128,7 +145,7 @@ h2
 
 .main__community
     width: 90%
-    margin: 0 auto
+    margin: 12rem auto 0
     padding: 4.1rem 1.2rem
     background-color: #fff
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.15)
@@ -152,4 +169,72 @@ h2
 
     &-text-btn:hover
         background-color: #ff9adb
+
+.footer
+    background-color: #00252e
+    padding: 10rem 1.6rem 4.6rem
+    width: 100%
+    position: absolute
+    top: 97.5%
+    z-index: -1
+
+    &__logo
+
+        &-img
+            height: 9rem
+
+        &-text-container
+            font-family: "Open Sans", sans-serif
+            font-size: 1.4rem
+            line-height: 2.5rem
+            color: #fff
+
+            &-flex
+                display: flex
+                align-items: flex-start
+
+        &-text-container-paragraph
+            margin-bottom: 2.2rem
+
+        &-text-container-tel
+            margin-bottom: 2.2rem
+
+        &-text-container-email
+            margin-bottom: 2.2rem
+
+    &__navigation
+        margin-top: 4rem
+
+        &-about-us-link
+            margin-bottom: 1.8rem
+
+    &__social
+        text-align: center
+        color: #fff
+
+        &-links
+            display: flex
+            justify-content: space-between
+            width: 15rem
+            margin: 1.5rem auto 2.4rem auto
+
+        &-link 
+            display: flex
+            justify-content: center
+            align-items: center
+            border: 2px solid #fff
+            border-radius: 50%
+            height: 2.25rem
+            width: 2.25rem
+            padding: 1.5rem
+            transition: 0.2s
+
+        &-link:hover
+            cursor: pointer
+            background-color: #FF52C1
+            border: 2px solid #FF52C1
+
+        &-copy
+            font-family: "Poppins", sans-serif
+            font-size: 1.3rem
 
